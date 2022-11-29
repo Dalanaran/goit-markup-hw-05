@@ -271,6 +271,7 @@ address p:hover {
 }
 
 .s3 ul li {
+    position: relative;
     width: 370px;
     vertical-align: top;
     list-style: none;
@@ -282,6 +283,26 @@ address p:hover {
 
 .s3 ul li img {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.box-title-img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(47, 48, 58, 0.8);
+    padding: 26px 0;    
+}
+
+.box-title-img p {
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
 }
 
 .s4 {
